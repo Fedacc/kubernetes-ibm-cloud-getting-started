@@ -8,7 +8,7 @@ nav_order: 2
 First of all, you need to have a docker engine installed on your machine.
 For education and demos it is possible to use docker, while if you are using it for a commercial solution (for example working on a project), you will have to have a proper license.
 
-> Commercial use of Docker Desktop in larger enterprises (more than 250 employees OR more than $10 million USD in annual revenue) now requires a paid subscription. The grace period for those that will require a paid subscription ends on January 31, 2022.
+> 📖 Commercial use of Docker Desktop in larger enterprises (more than 250 employees OR more than $10 million USD in annual revenue) now requires a paid subscription. The grace period for those that will require a paid subscription ends on January 31, 2022.
 
 Some alternatives inlcude for example [podman](https://podman.io/) (which I am currently using).
 For the purposes of this activity, the two experiences are identical.
