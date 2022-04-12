@@ -1,3 +1,11 @@
 title: kubernetes on IBM Cloud
 remote_theme: just-the-docs/just-the-docs
 search_enabled: false
+aux_links:
+  "IBM Cloud portal":
+    - "//cloud.ibm.com/login"
+aux_links_new_tab: true
+back_to_top: true
+back_to_top_text: "Back to top"
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
