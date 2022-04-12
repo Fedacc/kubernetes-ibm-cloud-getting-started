@@ -1,3 +1,8 @@
+---
+layout: default
+title: Docker Engine Installation
+nav_order: 2
+---
 # Docker Engine Installation
 
 First of all, you need to have a docker engine installed on your machine.

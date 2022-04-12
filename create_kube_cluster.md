@@ -1,3 +1,9 @@
+---
+layout: default
+title: Create a managed kubernetes cluster on IBM Cloud
+nav_order: 3
+---
+
 # Create a managed kubernetes cluster on IBM Cloud
 
 In order to create a kubernetes cluster on IBM Cloud you have to create an account.
