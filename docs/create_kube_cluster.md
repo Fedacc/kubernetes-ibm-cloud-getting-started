@@ -7,13 +7,14 @@ nav_order: 3
 # Create a managed kubernetes cluster on IBM Cloud
 
 In order to create a kubernetes cluster on IBM Cloud you have to create an account.
+In order for this to work, it is necessary to have a **TRIAL Account** or a **PAY AS YOU GO Account**
 The starting point is to register on [IBM Cloud](https://cloud.ibm.com/registration)
-
-> ❗️ **If you are an IBM employee**: please do register to IBM Cloud with your work email address
 
 > ❗️ **If you are a student of a university**: IBM has some specific programs for the universities, so it is highly likely that you can access the [Academic Initiative](https://https://www.ibm.com/academic/)! Reach out to your professors to learn more.
 
 ![IBM Cloud Registration form](/img/ibm-cloud-registration.png)
+
+> 🔎 Some extra details on the new rules on the accounts within IBM Cloud: [link](https://www.ibm.com/cloud/blog/announcements/securing-ibm-cloud-accounts)
 
 ## Select the service from the catalog
 
