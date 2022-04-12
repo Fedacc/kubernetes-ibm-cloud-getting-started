@@ -3,9 +3,9 @@
 In order to create a kubernetes cluster on IBM Cloud you have to create an account.
 The starting point is to register on [IBM Cloud](https://cloud.ibm.com/registration)
 
-> :warning: **If you are an IBM employee**: do register to IBM Cloud with your work email address
+> ❗️ **If you are an IBM employee**: please do register to IBM Cloud with your work email address
 
-> :warning: **If you are a student of a university**: IBM has some specific programs for the universities, so it is highly likely that you can access the [Academic Initiative](https://https://www.ibm.com/academic/)! Reach out to your professors to learn more.
+> ❗️ **If you are a student of a university**: IBM has some specific programs for the universities, so it is highly likely that you can access the [Academic Initiative](https://https://www.ibm.com/academic/)! Reach out to your professors to learn more.
 
 ![IBM Cloud Registration form](/img/ibm-cloud-registration.png)
 
@@ -19,7 +19,7 @@ Within the catalog, search for **Kubernetes Service** (or click the [following l
 
 In this page you will have the option to create a free cluster, which will be at your disposal for 30 days
 
-> :warning: after the 30 days expire, the cluster will be deleted (making it not suitable for production environment of course, also because the free cluster is a single node cluster with limited resources, thus leading to single point of failures to say the least.. so please for your real life scenarios consider using a **STANDARD** cluster)
+> ❗️ after the 30 days expire, the cluster will be deleted (making it not suitable for production environment of course, also because the free cluster is a single node cluster with limited resources, thus leading to single point of failures to say the least.. so please for your real life scenarios consider using a **STANDARD** cluster)
 
 In the cluster creation form, select the following parameters
 
