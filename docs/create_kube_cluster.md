@@ -34,7 +34,7 @@ In the cluster creation form, select the following parameters
 | ----------- | ----------- |
 | Pricing plan  | **Free**       |
 | Cluster name   | **mycluster-free** or modify the name according to your preferences  |
-| Cluster name   | **default** or select one *  |
+| Resource Group   | **default** or select one *  |
 
 > *: the resource group is a useful feature of **IBM Cloud** to logically segregate different projects within your account. You can also customize the visibility and access privileges of other users within the various resource group, making it ideal for projects in which RBAC is a thing (again, production environments are based on this!)
 

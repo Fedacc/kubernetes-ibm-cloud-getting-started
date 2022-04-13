@@ -9,7 +9,7 @@ nav_order: 6
 The goal of this step is to push the locally build image to the container registry [documentation](https://cloud.ibm.com/docs/containers?topic=containers-registry).
 We are going to publish the image in the [IBM Cloud Container Registry](https://cloud.ibm.com/docs/Registry?topic=Registry-getting-started#getting-started).
 
-## Install the IBM Cloud Container Registry CLI
+## Install the IBM Cloud CLI
 
 Install the IBM Cloud CLI so that you can run the IBM Cloud `ibmcloud` commands
 
