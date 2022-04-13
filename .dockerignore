@@ -1,4 +1,5 @@
 docs/
+kubernetes/
 README.md
 .env
 .env.sample

@@ -14,6 +14,8 @@ A step by step guide to deploy a simple application on a managed kubernetes clus
 
 3. [Execute app locally]({{ site.baseurl }}{% link run_local.md %})
 
-4. [Build container image]
+4. [Build container image]({{ site.baseurl }}{% link build_image.md %})
 
-5. [Push image to Registry]
+5. [Push image to Registry]({{ site.baseurl }}{% link push_image.md %})
+
+6. [Deploy to Kubernetes]({{ site.baseurl }}{% link deploy_kube.md %})

@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-simple-app
+spec:
+  selector:
+    matchLabels:
+      app: python-simple-app
+  replicas: 1 # tells deployment to run X pods matching the template
+  template:
+    metadata:
+      labels:
+        app: python-simple-app
+    spec:
+      containers:
+      - name: python-simple-app
+        image: de.icr.io/<INSERT_NAMESPACE>/<IMAGE_NAME>:<IMAGE_TAG> # UPDATE HERE WITH THE PROPER REFERENCES TO IBM CLOUD CONTAINER REGISTRY
+        imagePullPolicy: Always
+        resources:
+          limits:
+            cpu: 500m
+            memory: 512Mi
+          requests:
+            cpu: 100m
+            memory: 128Mi
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        env:
+        - name: PYTHON_CUSTOM_MESSAGE
+          valueFrom:
+            configMapKeyRef:
+              name: python-simple-app-config
+              key: PYTHON_CUSTOM_MESSAGE
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: python-simple-app-svc
+  labels:
+    app: python-simple-app
+spec:
+  type: NodePort
+  selector:
+    app: python-simple-app
+  ports:
+   - protocol: TCP
+     port: 8080

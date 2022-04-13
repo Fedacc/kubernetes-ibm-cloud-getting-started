@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Build container image
-nav_order: 4
+nav_order: 5
 ---
 
 # Build container image
