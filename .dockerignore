@@ -1,0 +1,7 @@
+docs/
+README.md
+.env
+.env.sample
+.git
+.gitignore
+LICENSE

@@ -40,3 +40,15 @@ to start the virtual machine running podman, use the following command
 ``` bash
 podman machine start myvm
 ```
+
+### For future reference - uninstall
+
+If you need to remove in the future podman from your mac, perform the following commands
+
+``` bash
+
+brew uninstall podman
+
+rm -fr ~/.config/containers/
+rm -fr ~/.local/share/containers/
+```
