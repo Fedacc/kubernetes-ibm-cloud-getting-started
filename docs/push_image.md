@@ -125,13 +125,13 @@ Optionally, you can perform the same activity on the [Container Registry dashboa
     Using docker:
 
     ``` bash
-    docker push kube-lab:1.0 de.icr.io/lab-kube/kube-lab:1.0
+    docker push de.icr.io/lab-kube/kube-lab:1.0
     ```
 
     using podman:
 
     ``` bash
-    podman push kube-lab:1.0 de.icr.io/lab-kube/kube-lab:1.0
+    podman push de.icr.io/lab-kube/kube-lab:1.0
     ```
 
 - Verify that the image was pushed
