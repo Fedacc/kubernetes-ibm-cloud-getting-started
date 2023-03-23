@@ -6,6 +6,8 @@ nav_order: 1
 
 A step by step guide to deploy a simple application on a managed kubernetes cluster on IBM Cloud
 
+Main link to the repository with the code and relevant files: [https://github.com/Fedacc/kubernetes-ibm-cloud-getting-started](https://github.com/Fedacc/kubernetes-ibm-cloud-getting-started)
+
 ## Table of contents
 
 1. [Docker Engine Installation]({{ site.baseurl }}{% link docker_engine.md %})
